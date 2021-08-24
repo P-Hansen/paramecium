@@ -3,7 +3,9 @@
     {"id":{"name":"foodOrangeSprite","path":"sprites/foodOrangeSprite/foodOrangeSprite.yy",},"order":1,},
     {"id":{"name":"foodOrange","path":"objects/foodOrange/foodOrange.yy",},"order":1,},
     {"id":{"name":"player","path":"objects/player/player.yy",},"order":0,},
+    {"id":{"name":"waste","path":"objects/waste/waste.yy",},"order":2,},
     {"id":{"name":"playerSprite","path":"sprites/playerSprite/playerSprite.yy",},"order":0,},
+    {"id":{"name":"wasteSprite","path":"sprites/wasteSprite/wasteSprite.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

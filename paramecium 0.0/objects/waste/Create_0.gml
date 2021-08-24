@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-speed = 0;
-maxSpeed = 2;
+speed = 0.5;
