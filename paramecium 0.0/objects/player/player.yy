@@ -28,6 +28,7 @@
     {"isDnD":false,"eventNum":39,"eventType":5,"collisionObjectId":null,"parent":{"name":"player","path":"objects/player/player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"player","path":"objects/player/player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"foodOrange","path":"objects/foodOrange/foodOrange.yy",},"parent":{"name":"player","path":"objects/player/player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"toxic","path":"objects/toxic/toxic.yy",},"parent":{"name":"player","path":"objects/player/player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
