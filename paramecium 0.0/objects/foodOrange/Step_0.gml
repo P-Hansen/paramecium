@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-speed = clamp(speed+0.1, 0, maxSpeed);
+if(x < 0 || x > room_width || y < 0 || y > room_height) {
+	direction += 180;
+}

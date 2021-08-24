@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-speed = clamp(speed+0.1, 0, maxSpeed);
+direction = random_range(0, 360);
+speed = random_range(0.1, 2);
