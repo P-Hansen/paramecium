@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-myHorn.direction = direction;
-myHorn.x = x+lengthdir_x(48,direction)
-myHorn.y = y+lengthdir_y(48,direction)
+//myHorn.direction = direction;
+//myHorn.x = x+lengthdir_x(48,direction)
+//myHorn.y = y+lengthdir_y(48,direction)
 
 image_angle = direction;
 
@@ -21,7 +21,7 @@ if(y > room_height) {
 }
 
 if (health <= 0) {
-	instance_destroy(myHorn);
+//	instance_destroy(myHorn);
 	instance_destroy(self)
 }
 
