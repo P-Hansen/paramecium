@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "powerUps",
+    "path": "folders/Objects/powerUps.yy",
   },
   "resourceVersion": "1.0",
   "name": "innerFoodOrange",

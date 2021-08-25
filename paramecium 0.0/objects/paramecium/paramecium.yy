@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "toxicSprite",
-    "path": "sprites/toxicSprite/toxicSprite.yy",
+    "name": "playerSprite",
+    "path": "sprites/playerSprite/playerSprite.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"toxic","path":"objects/toxic/toxic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"toxic","path":"objects/toxic/toxic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"paramecium","path":"objects/paramecium/paramecium.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "powerUps",
-    "path": "folders/Objects/powerUps.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "toxic",
+  "name": "paramecium",
   "tags": [],
   "resourceType": "GMObject",
 }

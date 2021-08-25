@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "toxicSprite",
-    "path": "sprites/toxicSprite/toxicSprite.yy",
+    "name": "hornSprite",
+    "path": "sprites/hornSprite/hornSprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"toxic","path":"objects/toxic/toxic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"toxic","path":"objects/toxic/toxic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"horn","path":"objects/horn/horn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "powerUps",
-    "path": "folders/Objects/powerUps.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "toxic",
+  "name": "horn",
   "tags": [],
   "resourceType": "GMObject",
 }
