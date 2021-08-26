@@ -14,6 +14,7 @@
     {"id":{"name":"waste","path":"objects/waste/waste.yy",},"order":6,},
     {"id":{"name":"sugarSprite","path":"sprites/sugarSprite/sugarSprite.yy",},"order":3,},
     {"id":{"name":"endLevel","path":"objects/endLevel/endLevel.yy",},"order":1,},
+    {"id":{"name":"ciliaSprite","path":"sprites/ciliaSprite/ciliaSprite.yy",},"order":11,},
     {"id":{"name":"horn","path":"objects/horn/horn.yy",},"order":10,},
     {"id":{"name":"innerFoodOrange","path":"objects/innerFoodOrange/innerFoodOrange.yy",},"order":3,},
     {"id":{"name":"playerSprite","path":"sprites/playerSprite/playerSprite.yy",},"order":0,},
