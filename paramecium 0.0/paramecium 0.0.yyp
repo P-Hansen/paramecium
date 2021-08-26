@@ -4,6 +4,7 @@
     {"id":{"name":"toxicSprite","path":"sprites/toxicSprite/toxicSprite.yy",},"order":4,},
     {"id":{"name":"chloroplast","path":"objects/chloroplast/chloroplast.yy",},"order":0,},
     {"id":{"name":"tailSprite","path":"sprites/tailSprite/tailSprite.yy",},"order":10,},
+    {"id":{"name":"tail","path":"objects/tail/tail.yy",},"order":11,},
     {"id":{"name":"paramecium","path":"objects/paramecium/paramecium.yy",},"order":9,},
     {"id":{"name":"foodOrangeSprite","path":"sprites/foodOrangeSprite/foodOrangeSprite.yy",},"order":1,},
     {"id":{"name":"toxic","path":"objects/toxic/toxic.yy",},"order":5,},

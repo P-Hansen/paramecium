@@ -5,6 +5,10 @@
 //myHorn.x = x+lengthdir_x(48,direction)
 //myHorn.y = y+lengthdir_y(48,direction)
 
+myTail.direction = direction;
+myTail.x = x+lengthdir_x(-44,direction)
+myTail.y = y+lengthdir_y(-44,direction)
+
 image_angle = direction;
 
 if(x < 0) {
