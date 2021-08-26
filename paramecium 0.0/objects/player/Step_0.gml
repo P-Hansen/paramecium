@@ -8,6 +8,7 @@
 myTail.direction = direction;
 myTail.x = x+lengthdir_x(-44,direction)
 myTail.y = y+lengthdir_y(-44,direction)
+myTail.image_speed = speed*0.2;
 
 image_angle = direction;
 
@@ -26,6 +27,7 @@ if(y > room_height) {
 
 if (health <= 0) {
 //	instance_destroy(myHorn);
+	instance_destroy(myTail);
 	instance_destroy(self)
 }
 
