@@ -13,6 +13,7 @@
     {"id":{"name":"player","path":"objects/player/player.yy",},"order":0,},
     {"id":{"name":"waste","path":"objects/waste/waste.yy",},"order":6,},
     {"id":{"name":"sugarSprite","path":"sprites/sugarSprite/sugarSprite.yy",},"order":3,},
+    {"id":{"name":"cilia","path":"objects/cilia/cilia.yy",},"order":12,},
     {"id":{"name":"endLevel","path":"objects/endLevel/endLevel.yy",},"order":1,},
     {"id":{"name":"ciliaSprite","path":"sprites/ciliaSprite/ciliaSprite.yy",},"order":11,},
     {"id":{"name":"horn","path":"objects/horn/horn.yy",},"order":10,},
