@@ -5,6 +5,7 @@ maxSpeed = 6;
 health = 50;
 maxHealth = 100;
 
+myER = instance_create_depth(x+48, y, 0, ER);
 //myHorn = instance_create_depth(x+48, y, 0, horn);
 //myTail = instance_create_depth(x-48, y, 0, tail);
 /*
