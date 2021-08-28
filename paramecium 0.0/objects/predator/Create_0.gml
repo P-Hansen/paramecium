@@ -3,8 +3,8 @@
 image_xscale = 0.1;
 image_yscale = 0.1;
 direction = random_range(0, 360);
-speed = 2;//random_range(2, 4);
-maxSpeed = 7;
+speed = 1;//random_range(2, 4);
+maxSpeed = 5;
 hp = 20;
 maxHp = 100;
 move_bounce_solid(true);
