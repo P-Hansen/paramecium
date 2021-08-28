@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_xscale = hp*0.01;
-image_yscale = hp*0.01;
+image_xscale = clamp(hp*0.01, 0.2, 100);
+image_yscale = clamp(hp*0.01, 0.2, 100);
+
 if (hp >= maxHp) {
 	baby = instance_create_depth(x, y, 0, predator);
 	baby.hp = maxHp/2;
