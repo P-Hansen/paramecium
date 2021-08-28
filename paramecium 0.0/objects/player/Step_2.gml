@@ -1,5 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
+/*
+myHorn.direction = direction;
+myHorn.x = x+lengthdir_x(45,direction)
+myHorn.y = y+lengthdir_y(48,direction)
+*/
+/*
+myTail.direction = direction;
+myTail.x = x+lengthdir_x(-44,direction)
+myTail.y = y+lengthdir_y(-44,direction)
+myTail.image_speed = speed*0.2;
+*/
+
+/*
 cilia1.direction = direction+180;
 cilia1.x = x+lengthdir_x(-50,direction)
 cilia1.y = y+lengthdir_y(-50,direction)
@@ -63,3 +76,4 @@ cilia15.y = y+lengthdir_y(39,direction-135)
 cilia16.direction = direction-158;
 cilia16.x = x+lengthdir_x(44,direction-158)
 cilia16.y = y+lengthdir_y(44,direction-158)
+*/

@@ -7,6 +7,7 @@ maxHealth = 100;
 
 //myHorn = instance_create_depth(x+48, y, 0, horn);
 //myTail = instance_create_depth(x-48, y, 0, tail);
+/*
 cilia1 = instance_create_depth(x-48, y, 0, cilia);
 cilia2 = instance_create_depth(x+48, y, 0, cilia);
 cilia3 = instance_create_depth(x+48, y, 0, cilia);
@@ -23,6 +24,6 @@ cilia13 = instance_create_depth(x+48, y, 0, cilia);
 cilia14 = instance_create_depth(x+48, y, 0, cilia);
 cilia15 = instance_create_depth(x+48, y, 0, cilia);
 cilia16 = instance_create_depth(x+48, y, 0, cilia);
-
+*/
 
 move_bounce_solid(true);

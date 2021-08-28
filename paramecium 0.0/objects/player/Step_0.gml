@@ -1,15 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//myHorn.direction = direction;
-//myHorn.x = x+lengthdir_x(48,direction)
-//myHorn.y = y+lengthdir_y(48,direction)
-
-//myTail.direction = direction;
-//myTail.x = x+lengthdir_x(-44,direction)
-//myTail.y = y+lengthdir_y(-44,direction)
-//myTail.image_speed = speed*0.2;
-
 image_angle = direction;
 
 
