@@ -2,11 +2,11 @@
 // You can write your code in this editor
 
 image_angle = direction;
-
+/*
 myER.direction = direction;
 myER.x = x;
 myER.y = y;
-
+*/
 if(x < 0) {
 	x = 5;
 }
