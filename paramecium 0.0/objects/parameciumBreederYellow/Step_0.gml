@@ -5,22 +5,20 @@ image_xscale = clamp(hp*0.01, 0.2, 100);
 image_yscale = clamp(hp*0.01, 0.2, 100);
 
 if (hp >= maxHp) {
-	baby = instance_create_depth(x, y, 0, parameciumBreeder);
-	baby.hp = maxHp/2;
-		roll = random_range(1,10);
+	roll = random_range(1,10);
 	if(roll >= 9) {
-		baby.image_blend = choose(c_white, c_aqua, c_yellow);
+		baby = instance_create_depth(x, y, 0, choose(parameciumBreederBlue, parameciumBreederWhite, parameciumBreederYellow));
 	} else {
-		baby.image_blend = image_blend;
+		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
-	baby = instance_create_depth(x, y, 0, parameciumBreeder);
 	baby.hp = maxHp/2;
 	roll = random_range(1,10);
 	if(roll >= 9) {
-		baby.image_blend = choose(c_white, c_aqua, c_yellow);
+		baby = instance_create_depth(x, y, 0, choose(parameciumBreederBlue, parameciumBreederWhite, parameciumBreederYellow));
 	} else {
-		baby.image_blend = image_blend;
+		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
+	baby.hp = maxHp/2;
 	instance_destroy(self);
 }
 
