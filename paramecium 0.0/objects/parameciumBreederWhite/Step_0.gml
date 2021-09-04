@@ -33,7 +33,7 @@ direction += steering;
 image_angle = direction;
 
 target = instance_nearest(x,y,foodOrange);
-if(instance_exists(target) && point_distance(x, y, target.x, target.y) <= 75) {
+if(instance_exists(target) && point_distance(x, y, target.x, target.y) <= sightRange) {
 	direction = point_direction(x, y, target.x, target.y);
 }
 
