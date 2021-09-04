@@ -19,6 +19,13 @@ if (hp >= maxHp) {
 		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
 	baby.hp = maxHp/2;
+		roll = random_range(1,10);
+	if(roll >= 9) {
+		baby = instance_create_depth(x, y, 0, choose(parameciumBreederBlue, parameciumBreederYellow));
+	} else {
+		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
+	}
+	baby.hp = maxHp/2;
 	instance_destroy(myTail);
 	instance_destroy(self);
 }
@@ -26,9 +33,12 @@ if (hp >= maxHp) {
 direction += steering;
 image_angle = direction;
 
-target = instance_nearest(x,y,foodOrange);
-if(instance_exists(target) && point_distance(x, y, target.x, target.y) <= sightRange) {
-	direction = point_direction(x, y, target.x, target.y);
+targetOrange = instance_nearest(x,y,foodOrange);
+targetWhite = instance_nearest(x,y,sugar);
+if(instance_exists(targetOrange) && point_distance(x, y, targetOrange.x, targetOrange.y) <= sightRange) {
+	direction = point_direction(x, y, targetOrange.x, targetOrange.y);
+} else if (instance_exists(targetWhite) && point_distance(x, y, targetWhite.x, targetWhite.y) <= sightRange) {
+	direction = point_direction(x, y, targetWhite.x, targetWhite.y);
 }
 
 if(x < 0) {
