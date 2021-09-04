@@ -7,25 +7,25 @@ image_yscale = clamp(hp*0.01, 0.2, 100);
 if (hp >= maxHp) {
 	roll = random_range(1,10);
 	if(roll >= 9) {
-		baby = instance_create_depth(x, y, 0, choose(parameciumBreederBlue, parameciumBreederYellow));
+		baby = instance_create_depth(x, y, 0, choose(parameciumBreederYellow));
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
-	baby.hp = maxHp/2;
+	baby.hp = maxHp/3;
 	roll = random_range(1,10);
 	if(roll >= 9) {
-		baby = instance_create_depth(x, y, 0, choose(parameciumBreederBlue, parameciumBreederYellow));
+		baby = instance_create_depth(x, y, 0, choose(parameciumBreederYellow));
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
-	baby.hp = maxHp/2;
+	baby.hp = maxHp/3;
 		roll = random_range(1,10);
 	if(roll >= 9) {
-		baby = instance_create_depth(x, y, 0, choose(parameciumBreederBlue, parameciumBreederYellow));
+		baby = instance_create_depth(x, y, 0, choose(parameciumBreederYellow));
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
-	baby.hp = maxHp/2;
+	baby.hp = maxHp/3;
 	instance_destroy(myTail);
 	instance_destroy(self);
 }
@@ -35,10 +35,10 @@ image_angle = direction;
 
 targetOrange = instance_nearest(x,y,foodOrange);
 targetWhite = instance_nearest(x,y,sugar);
-if(instance_exists(targetOrange) && point_distance(x, y, targetOrange.x, targetOrange.y) <= sightRange) {
-	direction = point_direction(x, y, targetOrange.x, targetOrange.y);
-} else if (instance_exists(targetWhite) && point_distance(x, y, targetWhite.x, targetWhite.y) <= sightRange) {
+if (instance_exists(targetWhite) && point_distance(x, y, targetWhite.x, targetWhite.y) <= sightRange) {
 	direction = point_direction(x, y, targetWhite.x, targetWhite.y);
+} else if (instance_exists(targetOrange) && point_distance(x, y, targetOrange.x, targetOrange.y) <= sightRange) {
+	direction = point_direction(x, y, targetOrange.x, targetOrange.y);
 }
 
 if(x < 0) {
