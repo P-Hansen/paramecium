@@ -5,7 +5,7 @@ image_xscale = 0.1;
 image_yscale = 0.1;
 direction = random_range(0, 360);
 
-minSpeed = 2;
+minSpeed = 4;
 maxSpeed = 6;
 speed = minSpeed;//random_range(2, 4);
 
@@ -15,3 +15,6 @@ move_bounce_solid(true);
 steering = 0;
 alarm[0] = 3*room_speed;
 sightRange = 75;
+
+myTail = instance_create_depth(x-48, y, 0, tail);
+myTail.image_blend = c_yellow;
