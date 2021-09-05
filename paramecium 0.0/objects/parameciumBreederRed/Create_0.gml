@@ -14,6 +14,7 @@ steering = 0;
 alarm[0] = 3*room_speed;
 sightRange = 75;
 myHorn1 = instance_create_depth(x+48, y, 0, horn);
+myHorn1.owner = self;
 //myHorn2 = instance_create_depth(x+44, y, 0, horn);
 //myHorn3 = instance_create_depth(x+44, y, 0, horn);
 myHorn2 = 0;
