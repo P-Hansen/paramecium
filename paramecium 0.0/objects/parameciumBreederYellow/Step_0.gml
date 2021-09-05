@@ -11,21 +11,21 @@ if (hp >= maxHp) {
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
-	baby.hp = maxHp/3;
+	baby.hp = maxHp/2.5;
 	roll = random_range(1,10);
 	if(roll >= 9) {
 		baby = instance_create_depth(x, y, 0, choose(parameciumBreederYellow));
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
-	baby.hp = maxHp/3;
+	baby.hp = maxHp/2.5;
 		roll = random_range(1,10);
 	if(roll >= 9) {
 		baby = instance_create_depth(x, y, 0, choose(parameciumBreederYellow));
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
-	baby.hp = maxHp/3;
+	baby.hp = maxHp/2.5;
 	instance_destroy(myTail);
 	instance_destroy(self);
 }

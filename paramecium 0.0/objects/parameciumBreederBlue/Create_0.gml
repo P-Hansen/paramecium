@@ -5,7 +5,7 @@ image_xscale = 0.1;
 image_yscale = 0.1;
 direction = random_range(0, 360);
 
-minSpeed = 1;
+minSpeed = 1.5;
 maxSpeed = 3;
 speed = minSpeed;//random_range(2, 4);
 

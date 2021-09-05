@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(other);
-hp = clamp(hp + 10, 0, maxHp);
+
+maxSize = 0.1;
+image_xscale = 0.1;
+image_yscale = 0.1;

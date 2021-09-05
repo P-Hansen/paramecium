@@ -15,7 +15,7 @@ if (hp >= maxHp) {
 direction += steering;
 image_angle = direction;
 
-target = instance_nearest(x,y,parameciumBreeder);
+target = instance_nearest(x,y,parameciumParentClass);
 if(instance_exists(target) && point_distance(x, y, target.x, target.y) <= 75) {
 	direction = point_direction(x, y, target.x, target.y);
 }
