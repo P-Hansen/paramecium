@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-steering = choose(-2, -1, 2, 1, 0, 0);
+steering = choose(-0.5, -1, 0.5, 1, 0, 0);
 alarm[0] = random_range(1,4)*room_speed;
 if (instance_exists(myHorn1) && instance_exists(myHorn2) && instance_exists(myHorn3) ) {
 	speed = clamp(speed+1, minSpeed, maxSpeed);
