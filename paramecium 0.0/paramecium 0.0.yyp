@@ -7,6 +7,7 @@
     {"id":{"name":"tailSprite","path":"sprites/tailSprite/tailSprite.yy",},"order":10,},
     {"id":{"name":"parameciumSeeker","path":"objects/parameciumSeeker/parameciumSeeker.yy",},"order":14,},
     {"id":{"name":"parameciumBreederWhite","path":"objects/parameciumBreederWhite/parameciumBreederWhite.yy",},"order":17,},
+    {"id":{"name":"parameciumBreederToxic","path":"objects/parameciumBreederToxic/parameciumBreederToxic.yy",},"order":23,},
     {"id":{"name":"tail","path":"objects/tail/tail.yy",},"order":11,},
     {"id":{"name":"paramecium","path":"objects/paramecium/paramecium.yy",},"order":9,},
     {"id":{"name":"shell","path":"objects/shell/shell.yy",},"order":22,},

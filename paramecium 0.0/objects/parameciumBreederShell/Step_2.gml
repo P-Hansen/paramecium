@@ -11,8 +11,9 @@ if (instance_exists(myShell)){
 	myShell.y = y;
 }
 if (instance_exists(myShell)){
-	myShell.image_xscale = clamp(hp*0.01, 0.2, 100);
+	myShell.maxSize = clamp(hp*0.01, 0.2, 100);
+	//myShell.image_xscale = clamp(hp*0.01, 0.2, 100);
 }
 if (instance_exists(myShell)){
-	myShell.image_yscale = clamp(hp*0.01, 0.2, 100);
+	//myShell.image_yscale = clamp(hp*0.01, 0.2, 100);
 }

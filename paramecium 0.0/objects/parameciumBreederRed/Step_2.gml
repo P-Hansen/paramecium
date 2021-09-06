@@ -11,7 +11,7 @@ if (instance_exists(myHorn1)){
 	myHorn1.y = y+lengthdir_y(48*(hp*0.01),direction);
 }
 if (instance_exists(myHorn1)){
-	myHorn1.maxSize = clamp(hp*0.01, 0.2, 100);;
+	myHorn1.maxSize = clamp(hp*0.01, 0.2, 100);
 }
 
 if (instance_exists(myHorn2)){
