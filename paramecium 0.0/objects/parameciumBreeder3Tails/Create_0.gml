@@ -5,12 +5,12 @@ image_xscale = 0.1;
 image_yscale = 0.1;
 direction = random_range(0, 360);
 
-minSpeed = 2;
+minSpeed = 1.5;
 maxSpeed = 4;
 speed = minSpeed;//random_range(2, 4);
 
-hp = 50;
-maxHp = 120;
+hp = 30;
+maxHp = 100;
 move_bounce_solid(true);
 steering = 0;
 alarm[0] = 3*room_speed;
@@ -19,3 +19,6 @@ sightRange = 75;
 myTail1 = instance_create_depth(x-48, y, 0, tail2);
 myTail2 = instance_create_depth(x-48, y, 0, tail2);
 myTail3 = instance_create_depth(x-48, y, 0, tail2);
+
+target = instance_find(foodOrange, irandom_range(0, instance_number(foodOrange)-1 ));
+flag = false;

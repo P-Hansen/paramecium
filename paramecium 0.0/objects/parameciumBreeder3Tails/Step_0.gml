@@ -11,21 +11,14 @@ if (hp >= maxHp) {
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreeder3Tails);
 	}
-	baby.hp = maxHp/2.5;
+	baby.hp = maxHp/1.5;
 	roll = random_range(1,10);
 	if(roll >= 9) {
 		baby = instance_create_depth(x, y, 0, choose(parameciumBreeder3Tails));
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreeder3Tails);
 	}
-	baby.hp = maxHp/2.5;
-		roll = random_range(1,10);
-	if(roll >= 9) {
-		baby = instance_create_depth(x, y, 0, choose(parameciumBreeder3Tails));
-	} else {
-		baby = instance_create_depth(x, y, 0, parameciumBreeder3Tails);
-	}
-	baby.hp = maxHp/2.5;
+	baby.hp = maxHp/1.5;
 
 	instance_destroy(self);
 }
@@ -33,12 +26,16 @@ if (hp >= maxHp) {
 direction += steering;
 image_angle = direction;
 
-targetOrange = instance_nearest(x,y,foodOrange);
-targetWhite = instance_nearest(x,y,sugar);
-if (instance_exists(targetWhite) && point_distance(x, y, targetWhite.x, targetWhite.y) <= sightRange) {
-	direction = point_direction(x, y, targetWhite.x, targetWhite.y);
-} else if (instance_exists(targetOrange) && point_distance(x, y, targetOrange.x, targetOrange.y) <= sightRange) {
-	direction = point_direction(x, y, targetOrange.x, targetOrange.y);
+
+if (instance_exists(target)) {
+	speed = clamp(speed + 0.05, minSpeed, maxSpeed);	
+	direction = point_direction(x, y, target.x, target.y);
+} else {
+	if (flag == false) {
+		alarm[1] = 1.5*room_speed;
+		flag = true;
+	}
+	speed = clamp(speed - 0.05, minSpeed, maxSpeed);	
 }
 
 if(x < 0) {
