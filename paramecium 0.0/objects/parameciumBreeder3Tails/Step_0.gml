@@ -32,7 +32,7 @@ if (instance_exists(target)) {
 	direction = point_direction(x, y, target.x, target.y);
 } else {
 	if (flag == false) {
-		alarm[1] = 1.5*room_speed;
+		alarm[1] = random_range(1,2)*room_speed;
 		flag = true;
 	}
 	speed = clamp(speed - 0.05, minSpeed, maxSpeed);	
