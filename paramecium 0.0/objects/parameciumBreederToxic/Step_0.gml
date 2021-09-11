@@ -126,6 +126,7 @@ if (fired == false) {
 		poison4.y = y-lengthdir_y(+5*(hp*0.02),direction);
 		poison4.direction = direction;
 	}
+	if instance_exists(poison5) {
 		poison5.x = x-lengthdir_x(+5*(hp*0.02),direction);
 		poison5.y = y-lengthdir_y(-5*(hp*0.02),direction);
 		poison5.direction = direction;
