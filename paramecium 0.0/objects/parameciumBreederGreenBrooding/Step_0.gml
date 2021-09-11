@@ -76,9 +76,7 @@ if instance_exists(poison5) {
 	poison5.direction = direction;
 }
 
-if (instance_exists(poison1) && poison1.hp > 35) {
-	poison1 = noone;	
-}
+
 if (instance_exists(poison2) && poison2.hp > 35) {
 	poison2 = noone;	
 }
@@ -93,7 +91,7 @@ if (instance_exists(poison5) && poison5.hp > 35) {
 }
 
 
-chloro.x = x;
-chloro.y = y;
-chloro.image_xscale = image_xscale;
-chloro.image_yscale = image_yscale;
+//chloro.x = x;
+//chloro.y = y;
+//chloro.image_xscale = image_xscale;
+//chloro.image_yscale = image_yscale;
