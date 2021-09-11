@@ -1,0 +1,34 @@
+/// @description Insert description here
+// You can write your code in this editor
+image_blend = c_green;//choose(c_white, c_orange, c_yellow);
+image_xscale = 0.1;
+image_yscale = 0.1;
+direction = random_range(0, 360);
+maxSpeed = 3;
+minSpeed = 2;
+speed = minSpeed;//random_range(2, 4);
+hp = 20;
+maxHp = 80;
+move_bounce_solid(true);
+steering = 0;
+alarm[0] = 3*room_speed;
+alarm[1] = 1*room_speed;
+alarm[2] = 3*room_speed;
+sightRange = 100;
+//ammo = 1;
+//fireFlag = false;
+poison1 = noone;
+poison2 = noone;
+poison3 = noone;
+poison4 = noone;
+poison5 = noone;
+fired = false;
+chloro = instance_create_depth(x, y, 0, chloroplast);
+X2 = random_range(1,10);
+Y2 = random_range(1,10);
+X3 = random_range(1,10);
+Y3 = random_range(1,10);
+X4 = random_range(1,10);
+Y4 = random_range(1,10);
+X5 = random_range(1,10);
+Y5 = random_range(1,10);

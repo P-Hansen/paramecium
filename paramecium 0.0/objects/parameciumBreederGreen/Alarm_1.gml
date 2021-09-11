@@ -1,5 +1,5 @@
-/// @description Insert description here
+/// @description Growth speed
 // You can write your code in this editor
 
-hp += 3;
-alarm[1] = 2*room_speed;
+hp += 2;
+alarm[1] = 1*room_speed;

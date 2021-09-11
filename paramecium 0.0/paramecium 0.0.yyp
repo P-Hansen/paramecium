@@ -12,6 +12,7 @@
     {"id":{"name":"tail2","path":"objects/tail2/tail2.yy",},"order":25,},
     {"id":{"name":"tail","path":"objects/tail/tail.yy",},"order":11,},
     {"id":{"name":"paramecium","path":"objects/paramecium/paramecium.yy",},"order":9,},
+    {"id":{"name":"parameciumBreederGreenBrooding","path":"objects/parameciumBreederGreenBrooding/parameciumBreederGreenBrooding.yy",},"order":28,},
     {"id":{"name":"shell","path":"objects/shell/shell.yy",},"order":22,},
     {"id":{"name":"foodOrangeSprite","path":"sprites/foodOrangeSprite/foodOrangeSprite.yy",},"order":1,},
     {"id":{"name":"parameciumBreederGreen","path":"objects/parameciumBreederGreen/parameciumBreederGreen.yy",},"order":26,},
