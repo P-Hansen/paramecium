@@ -4,7 +4,7 @@
 alarm[2] = 2*room_speed;
 
 //breeding when over max hp
-if (hp >= maxHp && instance_number(parameciumBreederGreenBrooding) < 100 ) {
+if (hp >= maxHp && instance_number(parameciumBreederGreenBrooding) < 90 ) {
 	if (!instance_exists(poison2)) {
 		poison2 = instance_create_depth(x,y, 0, parameciumBreederGreenBrooding);
 		poison2.hp = 1;

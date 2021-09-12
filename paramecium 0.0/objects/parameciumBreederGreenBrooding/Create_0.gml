@@ -9,7 +9,7 @@ maxSpeed = 2.5;
 minSpeed = 1.5;
 speed = minSpeed;//random_range(2, 4);
 hp = 20;
-maxHp = 79;
+maxHp = 80;
 move_bounce_solid(true);
 steering = 0;
 alarm[0] = 3*room_speed;
