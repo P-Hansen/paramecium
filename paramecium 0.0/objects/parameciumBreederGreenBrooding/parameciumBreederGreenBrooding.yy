@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "parameciumSprite",
-    "path": "sprites/parameciumSprite/parameciumSprite.yy",
+    "name": "parameciumSpriteSolid",
+    "path": "sprites/parameciumSpriteSolid/parameciumSpriteSolid.yy",
   },
   "solid": true,
   "visible": true,

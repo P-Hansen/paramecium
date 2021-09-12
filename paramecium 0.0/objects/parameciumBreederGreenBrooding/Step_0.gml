@@ -90,7 +90,10 @@ if (instance_exists(poison5) && poison5.hp > 35) {
 	poison5 = noone;	
 }
 
-
+if (hp > 35) {
+	image_index = 1;
+	image_alpha = 1;
+}
 //chloro.x = x;
 //chloro.y = y;
 //chloro.image_xscale = image_xscale;
