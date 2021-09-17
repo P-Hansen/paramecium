@@ -6,6 +6,10 @@ image_yscale = hp*0.01;
 
 direction += steering;
 image_angle = direction;
+enemy1 = instance_nearest(x,y,parameciumParentClass);
+if (instance_exists(enemy1) && point_distance(x, y, enemy1.x, enemy1.y) <= sightRange && hp < 60) {
+	direction = point_direction(x, y, enemy1.x, enemy1.y)+180;
+}
 
 //movement towards food items
 targetWhite = instance_nearest(x,y,sugar);

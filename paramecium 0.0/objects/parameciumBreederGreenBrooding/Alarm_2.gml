@@ -1,7 +1,7 @@
 /// @description breeding timer
 // You can write your code in this editor
 
-alarm[2] = 1*room_speed;
+alarm[2] = 0.5*room_speed;
 
 //breeding when over max hp
 if (hp >= maxHp && instance_number(parameciumBreederGreenBrooding) < 30 ) {
