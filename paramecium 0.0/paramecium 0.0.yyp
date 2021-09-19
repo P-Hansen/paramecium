@@ -31,6 +31,7 @@
     {"id":{"name":"sugarSprite","path":"sprites/sugarSprite/sugarSprite.yy",},"order":3,},
     {"id":{"name":"cilia","path":"objects/cilia/cilia.yy",},"order":12,},
     {"id":{"name":"endLevel","path":"objects/endLevel/endLevel.yy",},"order":1,},
+    {"id":{"name":"vacuumSprite","path":"sprites/vacuumSprite/vacuumSprite.yy",},"order":19,},
     {"id":{"name":"ciliaSprite","path":"sprites/ciliaSprite/ciliaSprite.yy",},"order":11,},
     {"id":{"name":"horn","path":"objects/horn/horn.yy",},"order":10,},
     {"id":{"name":"parameciumParentClass","path":"objects/parameciumParentClass/parameciumParentClass.yy",},"order":19,},

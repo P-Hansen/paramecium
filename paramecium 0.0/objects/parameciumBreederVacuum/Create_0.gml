@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_blend = c_white;//choose(c_white, c_orange, c_yellow);
+image_blend = c_yellow;//choose(c_white, c_orange, c_yellow);
 image_xscale = 0.1;
 image_yscale = 0.1;
 direction = random_range(0, 360);
@@ -12,6 +12,6 @@ maxHp = 110;
 move_bounce_solid(true);
 steering = 0;
 alarm[0] = 3*room_speed;
-sightRange = 75;
+sightRange = 200;
 
-myVacuumArea = instance_create_depth(x-48, y, 0, vacuumArea);
+myVacuumArea = instance_create_depth(x-48, y, 10, vacuumArea);

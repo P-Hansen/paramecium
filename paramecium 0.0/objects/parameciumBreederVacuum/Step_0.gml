@@ -8,21 +8,21 @@ if (hp >= maxHp) {
 	roll = random_range(1,10);
 	if(roll >= 9) {
 		//newColour = merge_colour(image_blend, make_colour_rgb( random(255),  random(255), random(255)), 0.5);
-		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
+		baby = instance_create_depth(x, y, 0, parameciumBreederVacuum);
 		//baby.minSpeed = minSpeed + 1;
 		//baby.image_blend = newColour;
 		baby.hp = maxHp/2;
 	
-		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
+		baby = instance_create_depth(x, y, 0, parameciumBreederVacuum);
 		//baby.minSpeed = minSpeed + 1;
 		//baby.image_blend = newColour;
 		baby.hp = maxHp/2;
 	} else {
-		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
+		baby = instance_create_depth(x, y, 0, parameciumBreederVacuum);
 		baby.hp = maxHp/2;
 		//baby.image_blend = image_blend;
 	
-		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
+		baby = instance_create_depth(x, y, 0, parameciumBreederVacuum);
 		baby.hp = maxHp/2;
 		//baby.image_blend = image_blend;
 	}
