@@ -42,6 +42,7 @@
     {"id":{"name":"sugar","path":"objects/sugar/sugar.yy",},"order":4,},
     {"id":{"name":"hornSprite","path":"sprites/hornSprite/hornSprite.yy",},"order":8,},
     {"id":{"name":"chloroplastSprite","path":"sprites/chloroplastSprite/chloroplastSprite.yy",},"order":6,},
+    {"id":{"name":"foodParentClass","path":"objects/foodParentClass/foodParentClass.yy",},"order":7,},
     {"id":{"name":"endLevelSprite","path":"sprites/endLevelSprite/endLevelSprite.yy",},"order":7,},
     {"id":{"name":"parameciumSprite","path":"sprites/parameciumSprite/parameciumSprite.yy",},"order":14,},
     {"id":{"name":"parameciumSpriteSolid","path":"sprites/parameciumSpriteSolid/parameciumSpriteSolid.yy",},"order":17,},

@@ -32,9 +32,14 @@ if (hp >= maxHp) {
 direction += steering;
 image_angle = direction;
 
-target = instance_nearest(x,y,foodOrange);
+target = instance_nearest(x,y,foodParentClass);
 if(instance_exists(target) && point_distance(x, y, target.x, target.y) <= sightRange) {
-	direction = point_direction(x, y, target.x, target.y);
+	targetDirection = point_direction(x, y, target.x, target.y);
+	if (targetDirection - direction > 1) {
+	direction += 1;
+	} else {
+	direction -= 1;
+	}
 }
 
 if(x < 0) {

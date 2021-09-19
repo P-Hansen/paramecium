@@ -4,7 +4,7 @@ image_blend = c_yellow;//choose(c_white, c_orange, c_yellow);
 image_xscale = 0.1;
 image_yscale = 0.1;
 direction = random_range(0, 360);
-maxSpeed = 1;
+maxSpeed = 1.5;
 minSpeed = 0.5;
 speed = minSpeed;//random_range(2, 4);
 hp = 20;
@@ -12,6 +12,6 @@ maxHp = 110;
 move_bounce_solid(true);
 steering = 0;
 alarm[0] = 3*room_speed;
-sightRange = 200;
+sightRange = 225;
 
 myVacuumArea = instance_create_depth(x-48, y, 10, vacuumArea);
