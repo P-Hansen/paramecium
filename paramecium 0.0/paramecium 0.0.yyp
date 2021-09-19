@@ -43,6 +43,7 @@
     {"id":{"name":"parameciumSprite","path":"sprites/parameciumSprite/parameciumSprite.yy",},"order":14,},
     {"id":{"name":"parameciumSpriteSolid","path":"sprites/parameciumSpriteSolid/parameciumSpriteSolid.yy",},"order":17,},
     {"id":{"name":"parameciumBreederShell","path":"objects/parameciumBreederShell/parameciumBreederShell.yy",},"order":21,},
+    {"id":{"name":"parameciumBreederVacuum","path":"objects/parameciumBreederVacuum/parameciumBreederVacuum.yy",},"order":29,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
