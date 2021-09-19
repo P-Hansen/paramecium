@@ -7,8 +7,11 @@ image_yscale = hp*0.01;
 direction += steering;
 image_angle = direction;
 enemy1 = instance_nearest(x,y,parameciumParentClass);
-if (instance_exists(enemy1) && point_distance(x, y, enemy1.x, enemy1.y) <= sightRange && hp < 60) {
+enemy2 = instance_nearest(x,y,parameciumBreederToxic);
+if (instance_exists(enemy1) && point_distance(x, y, enemy1.x, enemy1.y) <= sightRange && hp < 50 && enemy1.hp > hp) {
 	direction = point_direction(x, y, enemy1.x, enemy1.y)+180;
+} else if (instance_exists(enemy2) && point_distance(x, y, enemy2.x, enemy2.y) <= sightRange && hp < 50 && enemy2.hp > hp) {
+	direction = point_direction(x, y, enemy2.x, enemy2.y)+180;
 }
 
 //movement towards food items
