@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-hp -= 10;
-instance_destroy(other);
+image_xscale = 0;
+image_yscale = 0;
+maxSize = 0;

@@ -5,28 +5,11 @@ image_xscale = clamp(hp*0.01, 0.2, 100);
 image_yscale = clamp(hp*0.01, 0.2, 100);
 
 if (hp >= maxHp) {
-	roll = random_range(1,10);
-	if(roll >= 9) {
-		//newColour = merge_colour(image_blend, make_colour_rgb( random(255),  random(255), random(255)), 0.5);
-		baby = instance_create_depth(x, y, 0, parameciumBreederVacuum);
-		//baby.minSpeed = minSpeed + 1;
-		//baby.image_blend = newColour;
-		baby.hp = maxHp/2;
-	
-		baby = instance_create_depth(x, y, 0, parameciumBreederVacuum);
-		//baby.minSpeed = minSpeed + 1;
-		//baby.image_blend = newColour;
-		baby.hp = maxHp/2;
-	} else {
-		baby = instance_create_depth(x, y, 0, parameciumBreederVacuum);
-		baby.hp = maxHp/2;
-		//baby.image_blend = image_blend;
-	
-		baby = instance_create_depth(x, y, 0, parameciumBreederVacuum);
-		baby.hp = maxHp/2;
-		//baby.image_blend = image_blend;
-	}
-	instance_destroy(self);
+	offsetX = x+lengthdir_x(-40*(hp*0.01),direction)
+	offsetY = y+lengthdir_y(-40*(hp*0.01),direction)
+	baby = instance_create_depth(offsetX, offsetY, 0, parameciumBreederVacuum);
+	baby.direction = direction;
+	hp -= 20;
 }
 
 direction += steering;
