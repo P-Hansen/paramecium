@@ -8,7 +8,6 @@ if (hp >= maxHp) {
 	offsetX = x+lengthdir_x(-40*(hp*0.01),direction)
 	offsetY = y+lengthdir_y(-40*(hp*0.01),direction)
 	baby = instance_create_depth(offsetX, offsetY, 0, parameciumBreederVacuum);
-	baby.direction = direction;
 	hp -= 20;
 }
 

@@ -12,6 +12,6 @@ maxHp = 90;
 move_bounce_solid(true);
 steering = 0;
 alarm[0] = 3*room_speed;
-sightRange = 225;
+sightRange = 250;
 
 myVacuumArea = instance_create_depth(x-48, y, 10, vacuumArea);
