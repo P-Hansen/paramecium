@@ -100,7 +100,11 @@ if (instance_exists(poison5) && poison5.hp > 35) {
 if (hp > 35) {
 	image_index = 1;
 	image_alpha = 1;
+	if (hp >= 110) {
+		image_index = 2;	
+	}
 }
+
 //chloro.x = x;
 //chloro.y = y;
 //chloro.image_xscale = image_xscale;
