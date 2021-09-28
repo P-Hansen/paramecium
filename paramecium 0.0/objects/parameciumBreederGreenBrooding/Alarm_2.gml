@@ -6,11 +6,17 @@ alarm[2] = 0.5*room_speed;
 //breeding when over max hp
 if (hp >= maxHp && instance_number(parameciumBreederGreenBrooding) < 30 ) {
 	if (!instance_exists(poison2)) {
-		poison2 = instance_create_depth(x,y, 0, parameciumBreederGreenBrooding);
-		poison2.hp = 1;
-		hp -= hp/8;
-		X2 = random_range(1,10);
-		Y2 = random_range(1,10);
+		roll = irandom_range(1,100);
+		if (roll <= 5) {
+			poison2 = instance_create_depth(x,y, 0, parameciumBreederGreen);
+			poison2.hp = 1;
+		} else {
+			poison2 = instance_create_depth(x,y, 0, parameciumBreederGreenBrooding);
+			poison2.hp = 1;
+			hp -= hp/8;
+			X2 = random_range(1,10);
+			Y2 = random_range(1,10);
+		}
 	} else if (!instance_exists(poison3)) {
 		poison3 = instance_create_depth(x,y, 0, parameciumBreederGreenBrooding);
 		poison3.hp = 1;

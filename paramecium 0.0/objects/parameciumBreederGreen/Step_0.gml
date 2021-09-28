@@ -5,16 +5,17 @@ image_xscale = clamp(hp*0.01, 0.2, 100);
 image_yscale = clamp(hp*0.01, 0.2, 100);
 
 if (hp >= maxHp) {
-	baby = instance_create_depth(x, y, 0, parameciumBreederGreen);
+	roll = irandom_range(1,100);
+	if (roll <= 5) {
+		baby = instance_create_depth(x,y, 0, parameciumBreederGreenBrooding);
+	} else {
+		baby = instance_create_depth(x, y, 0, parameciumBreederGreen);
+	}
 	baby.hp = maxHp/10;
 	hp -= hp/10;
 	baby = instance_create_depth(x, y, 0, parameciumBreederGreen);
 	baby.hp = maxHp/10;
 	hp -= hp/10;
-	baby = instance_create_depth(x, y, 0, parameciumBreederGreen);
-	baby.hp = maxHp/10;
-	hp -= hp/10;
-
 }
 
 //direction += steering;
