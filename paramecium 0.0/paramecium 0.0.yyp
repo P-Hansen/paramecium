@@ -2,7 +2,7 @@
   "resources": [
     {"id":{"name":"SilicaSprite","path":"sprites/SilicaSprite/SilicaSprite.yy",},"order":5,},
     {"id":{"name":"toxicSprite","path":"sprites/toxicSprite/toxicSprite.yy",},"order":4,},
-    {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":20,},
+    {"id":{"name":"spikeSprite","path":"sprites/spikeSprite/spikeSprite.yy",},"order":20,},
     {"id":{"name":"predator","path":"objects/predator/predator.yy",},"order":16,},
     {"id":{"name":"chloroplast","path":"objects/chloroplast/chloroplast.yy",},"order":0,},
     {"id":{"name":"tailSprite","path":"sprites/tailSprite/tailSprite.yy",},"order":10,},
