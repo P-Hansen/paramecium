@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spike","path":"objects/spike/spike.yy",},"order":32,},
     {"id":{"name":"SilicaSprite","path":"sprites/SilicaSprite/SilicaSprite.yy",},"order":5,},
     {"id":{"name":"toxicSprite","path":"sprites/toxicSprite/toxicSprite.yy",},"order":4,},
     {"id":{"name":"spikeSprite","path":"sprites/spikeSprite/spikeSprite.yy",},"order":20,},
@@ -34,6 +35,7 @@
     {"id":{"name":"endLevel","path":"objects/endLevel/endLevel.yy",},"order":1,},
     {"id":{"name":"vacuumSprite","path":"sprites/vacuumSprite/vacuumSprite.yy",},"order":19,},
     {"id":{"name":"ciliaSprite","path":"sprites/ciliaSprite/ciliaSprite.yy",},"order":11,},
+    {"id":{"name":"parameciumBreederSpiked","path":"objects/parameciumBreederSpiked/parameciumBreederSpiked.yy",},"order":31,},
     {"id":{"name":"horn","path":"objects/horn/horn.yy",},"order":10,},
     {"id":{"name":"parameciumParentClass","path":"objects/parameciumParentClass/parameciumParentClass.yy",},"order":19,},
     {"id":{"name":"innerFoodOrange","path":"objects/innerFoodOrange/innerFoodOrange.yy",},"order":3,},
