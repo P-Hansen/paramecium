@@ -6,3 +6,4 @@ image_index = 1;
 hp = 1;
 image_xscale = 0;
 image_yscale = 0;
+move_bounce_solid(true);
