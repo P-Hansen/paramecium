@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description spike timer
 
 if (state = true) {
 	state = false;
@@ -7,9 +6,8 @@ if (state = true) {
 	for (var i=0; i<array_length_1d(spikeArray); i++) {
 		spikeArray[i].maxSize = clamp(hp*0.01, 0.2, 100);
 	}
-	//cilia15.maxSize = clamp(hp*0.01, 0.2, 100);
-	//cilia16.maxSize = clamp(hp*0.01, 0.2, 100);
 	minSize = image_xscale/1.5;
+	alarm[1] = 5*room_speed;
 } else {
 	state = true
 	speed = clamp(speed+choose(-1,0,1), minSpeed, maxSpeed);
@@ -18,4 +16,3 @@ if (state = true) {
 	}
 }
 
-alarm[1] = 5*room_speed;

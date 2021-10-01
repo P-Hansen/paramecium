@@ -30,6 +30,11 @@ if (state = true) {
 	if(instance_exists(target) && point_distance(x, y, target.x, target.y) <= sightRange) {
 		direction = point_direction(x, y, target.x, target.y);
 	}
+	
+	myEnemy = instance_nearest(x,y,parameciumParentClass);
+	if(instance_exists(myEnemy) && point_distance(x, y, myEnemy.x, myEnemy.y) <= sightRange) {
+		alarm[1] = 1;
+	}
 
 	if(x < 0) {
 		x = 5;
