@@ -26,16 +26,16 @@ if (state = true) {
 	direction += steering;
 	image_angle = direction;
 
-	target = instance_nearest(x,y,foodOrange);
+	target = instance_nearest(x,y,foodParentClass);
 	if(instance_exists(target) && point_distance(x, y, target.x, target.y) <= sightRange) {
 		direction = point_direction(x, y, target.x, target.y);
 	}
 	
 	myEnemy = instance_nearest(x,y,parameciumParentClass);
-	if(instance_exists(myEnemy) && point_distance(x, y, myEnemy.x, myEnemy.y) <= sightRange) {
+	if(instance_exists(myEnemy) && point_distance(x, y, myEnemy.x, myEnemy.y) <= 90) {
 		alarm[1] = 1;
 	}
-
+	
 	if(x < 0) {
 		x = 5;
 		direction += 180 + random_range(-20,20);

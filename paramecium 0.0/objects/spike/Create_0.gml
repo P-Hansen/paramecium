@@ -3,3 +3,4 @@
 image_xscale = 0;
 image_yscale = 0;
 maxSize = 0;
+image_blend = make_colour_rgb(171, 118, 194);

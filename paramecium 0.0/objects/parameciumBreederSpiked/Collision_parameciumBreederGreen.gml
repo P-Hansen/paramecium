@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(other);
-hp = clamp(hp + 10, 0, maxHp);
+
+move_bounce_all(false);

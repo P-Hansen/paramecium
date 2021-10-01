@@ -14,7 +14,6 @@ maxHp = 100;
 move_bounce_solid(true);
 steering = 0;
 alarm[0] = 3*room_speed;
-alarm[1] = 5*room_speed;
 sightRange = 100;
 
 state = true;
