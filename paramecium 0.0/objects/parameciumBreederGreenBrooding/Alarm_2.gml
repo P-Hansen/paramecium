@@ -8,7 +8,7 @@ if (hp >= maxHp && instance_number(parameciumBreederGreenBrooding) < 30 ) {
 	if (!instance_exists(poison2)) {
 		roll = irandom_range(1,100);
 		if (roll <= 5) {
-			poison2 = instance_create_depth(x,y, 0, parameciumBreederGreen);
+			poison2 = instance_create_depth(x,y, 0, parameciumBreederGreenBrooding);//chance to breed other green
 			poison2.hp = 1;
 		} else {
 			poison2 = instance_create_depth(x,y, 0, parameciumBreederGreenBrooding);
