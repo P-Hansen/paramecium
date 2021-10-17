@@ -15,7 +15,7 @@ if (state = true) {
 		state = true
 		speed = clamp(speed+choose(-1,0,1), minSpeed, maxSpeed);
 		for (var i=0; i<array_length_1d(spikeArray); i++) {
-			spikeArray[i].maxSize = 0;
+			spikeArray[i].maxSize = 0.2;
 		}
 	}
 }

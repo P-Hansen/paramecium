@@ -7,4 +7,5 @@ if (state = true) {
 	hp -= 3.5;
 }
 
+hp -= 0.3;
 alarm[0] = random_range(2,3.5)*room_speed;
