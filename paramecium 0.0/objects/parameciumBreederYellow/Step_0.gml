@@ -26,7 +26,6 @@ if (hp >= maxHp) {
 		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
 	baby.hp = maxHp/2.5;
-	instance_destroy(myTail);
 	instance_destroy(self);
 }
 
@@ -59,6 +58,5 @@ if(y > room_height) {
 }
 
 if (hp <= 0) {
-	instance_destroy(myTail);
 	instance_destroy(self);
 }
