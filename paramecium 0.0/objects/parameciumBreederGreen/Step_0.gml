@@ -4,10 +4,10 @@
 image_xscale = clamp(hp*0.01, 0.2, 100);
 image_yscale = clamp(hp*0.01, 0.2, 100);
 
-if (hp >= maxHp) {
+if (hp >= maxHp  && instance_number(parameciumBreederGreen) < 200 ) {
 	roll = irandom_range(1,100);
 	if (roll <= 5) {
-		baby = instance_create_depth(x,y, 0, parameciumBreederGreenBrooding);
+		baby = instance_create_depth(x,y, 0, parameciumBreederGreen);
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederGreen);
 	}
@@ -23,6 +23,7 @@ image_angle = direction;
 
 target = instance_nearest(x,y,sugar);
 enemy1 = instance_nearest(x,y,parameciumParentClass);
+/*
 if(instance_exists(target) && point_distance(x, y, target.x, target.y) <= sightRange) {
 	direction = point_direction(x, y, target.x, target.y);
 } /*else if (instance_exists(enemy1) && point_distance(x, y, enemy1.x, enemy1.y) <= sightRangeEnemies) {
@@ -50,7 +51,9 @@ if (hp <= 0) {
 	instance_destroy(self);
 }
 
-chloro.x = x;
-chloro.y = y;
-chloro.image_xscale = image_xscale;
-chloro.image_yscale = image_yscale;
+if (instance_exists(chloro)) {
+	chloro.x = x;
+	chloro.y = y;
+	chloro.image_xscale = image_xscale;
+	chloro.image_yscale = image_yscale;
+}

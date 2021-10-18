@@ -32,7 +32,7 @@ if (state = true) {
 	}
 	
 	myEnemy = instance_nearest(x,y,parameciumParentClass);
-	if(instance_exists(myEnemy) && point_distance(x, y, myEnemy.x, myEnemy.y) <= 90) {
+	if(instance_exists(myEnemy) && point_distance(x, y, myEnemy.x, myEnemy.y) <= 80) {
 		alarm[1] = 1;
 	}
 	
