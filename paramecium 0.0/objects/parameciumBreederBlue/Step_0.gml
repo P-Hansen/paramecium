@@ -19,22 +19,6 @@ if (hp >= maxHp) {
 		baby = instance_create_depth(x, y, 0, parameciumBreederBlue);
 	}
 	baby.hp = maxHp/2;
-	instance_destroy(cilia1);
-	instance_destroy(cilia2);
-	instance_destroy(cilia3);
-	instance_destroy(cilia4);
-	instance_destroy(cilia5);
-	instance_destroy(cilia6);
-	instance_destroy(cilia7);
-	instance_destroy(cilia8);
-	instance_destroy(cilia9);
-	instance_destroy(cilia10);
-	instance_destroy(cilia11);
-	instance_destroy(cilia12);
-	instance_destroy(cilia13);
-	instance_destroy(cilia14);
-	instance_destroy(cilia15);
-	instance_destroy(cilia16);
 	instance_destroy(self);
 }
 
@@ -64,21 +48,5 @@ if(y > room_height) {
 }
 
 if (hp <= 0) {
-	instance_destroy(cilia1);
-	instance_destroy(cilia2);
-	instance_destroy(cilia3);
-	instance_destroy(cilia4);
-	instance_destroy(cilia5);
-	instance_destroy(cilia6);
-	instance_destroy(cilia7);
-	instance_destroy(cilia8);
-	instance_destroy(cilia9);
-	instance_destroy(cilia10);
-	instance_destroy(cilia11);
-	instance_destroy(cilia12);
-	instance_destroy(cilia13);
-	instance_destroy(cilia14);
-	instance_destroy(cilia15);
-	instance_destroy(cilia16);
 	instance_destroy(self);
 }
