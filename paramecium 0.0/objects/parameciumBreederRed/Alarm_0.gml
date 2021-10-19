@@ -10,7 +10,7 @@ if (instance_exists(myHorn1) && instance_exists(myHorn2) && instance_exists(myHo
 }
 
 
-hp -= clamp(hp/12, 5, 100);
+hp -= clamp(hp/10, 5, 100);
 
 if (!instance_exists(myHorn1)){
 	myHorn1 = instance_create_depth(x+48, y, 0, horn);
