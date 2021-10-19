@@ -11,19 +11,19 @@ if (hp >= maxHp) {
 		baby = instance_create_depth(x, y, 0, parameciumBreederRed);
 		//baby.minSpeed = minSpeed + 1;
 		//baby.image_blend = newColour;
-		baby.hp = maxHp/2;
+		baby.hp = maxHp/2.5;
 	
 		baby = instance_create_depth(x, y, 0, parameciumBreederRed);
 		//baby.minSpeed = minSpeed + 1;
 		//baby.image_blend = newColour;
-		baby.hp = maxHp/2;
+		baby.hp = maxHp/2.5;
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederRed);
-		baby.hp = maxHp/2;
+		baby.hp = maxHp/2.5;
 		//baby.image_blend = image_blend;
 	
 		baby = instance_create_depth(x, y, 0, parameciumBreederRed);
-		baby.hp = maxHp/2;
+		baby.hp = maxHp/2.5;
 		//baby.image_blend = image_blend;
 	}
 	instance_destroy(self);
