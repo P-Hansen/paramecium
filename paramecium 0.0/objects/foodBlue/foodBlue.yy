@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "foodOrangeSprite",
-    "path": "sprites/foodOrangeSprite/foodOrangeSprite.yy",
+    "name": "foodBlueSprite",
+    "path": "sprites/foodBlueSprite/foodBlueSprite.yy",
   },
   "solid": false,
   "visible": true,
