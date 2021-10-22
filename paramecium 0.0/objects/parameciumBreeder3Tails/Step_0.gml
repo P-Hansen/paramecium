@@ -19,8 +19,8 @@ if (hp >= maxHp) {
 		baby = instance_create_depth(x, y, 0, parameciumBreeder3Tails);
 	}
 	baby.hp = maxHp/1.5;
-
 	instance_destroy(self);
+	global.points += 1;
 }
 
 direction += steering;

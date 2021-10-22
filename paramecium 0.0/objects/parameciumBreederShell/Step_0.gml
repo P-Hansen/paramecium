@@ -27,6 +27,7 @@ if (hp >= maxHp) {
 		//baby.image_blend = image_blend;
 	}
 	instance_destroy(self);
+	global.points += 1;
 }
 
 direction += steering;

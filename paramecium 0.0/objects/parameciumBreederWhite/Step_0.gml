@@ -6,16 +6,11 @@ image_yscale = clamp(hp*0.01, 0.2, 100);
 
 if (hp >= maxHp) {
 	roll = random_range(1,10);
-	if(roll >= 9) {
-		//newColour = merge_colour(image_blend, make_colour_rgb( random(255),  random(255), random(255)), 0.5);
-		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
-		//baby.minSpeed = minSpeed + 1;
-		//baby.image_blend = newColour;
+	if(roll >= 8) {
+		baby = instance_create_depth(x, y, 0, choose(parameciumBreederYellow, parameciumBreederBlue, parameciumBreederShell, parameciumBreederSpiked, parameciumBreederVacuum, parameciumBreederGreenBrooding));
 		baby.hp = maxHp/2;
 	
 		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
-		//baby.minSpeed = minSpeed + 1;
-		//baby.image_blend = newColour;
 		baby.hp = maxHp/2;
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);

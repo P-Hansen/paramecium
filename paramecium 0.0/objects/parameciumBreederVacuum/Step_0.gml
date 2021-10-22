@@ -9,6 +9,7 @@ if (hp >= maxHp) {
 	offsetY = y+lengthdir_y(-40*(hp*0.01),direction)
 	baby = instance_create_depth(offsetX, offsetY, 0, parameciumBreederVacuum);
 	hp -= 20;
+	global.points += 1;
 }
 
 direction += steering;

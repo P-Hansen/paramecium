@@ -21,6 +21,7 @@ if (state = true) {
 		}
 		baby.hp = maxHp/2;
 		instance_destroy(self);
+		global.points += 1;
 	}
 
 	direction += steering;

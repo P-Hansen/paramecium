@@ -7,7 +7,7 @@ image_yscale = clamp(hp*0.01, 0.2, 100);
 if (hp >= maxHp) {
 	roll = random_range(1,10);
 	if(roll >= 9) {
-		baby = instance_create_depth(x, y, 0, choose(parameciumBreederYellow));
+		baby = instance_create_depth(x, y, 0, choose(parameciumBreeder3Tails));
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederYellow);
 	}
@@ -27,6 +27,7 @@ if (hp >= maxHp) {
 	}
 	baby.hp = maxHp/2.5;
 	instance_destroy(self);
+	global.points += 1;
 }
 
 direction += steering;
