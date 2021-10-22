@@ -27,12 +27,13 @@ if (hp >= maxHp) {
 		//baby.image_blend = image_blend;
 	}
 	instance_destroy(self);
+	global.points += 1;
 }
 
 direction += steering;
 image_angle = direction;
 
-target = instance_nearest(x,y,foodBlue);
+target = instance_nearest(x,y,foodYellow);
 if(instance_exists(target) && point_distance(x, y, target.x, target.y) <= sightRange) {
 	direction = point_direction(x, y, target.x, target.y);
 }

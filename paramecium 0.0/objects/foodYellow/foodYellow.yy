@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "foodBlueSprite",
-    "path": "sprites/foodBlueSprite/foodBlueSprite.yy",
+    "name": "foodYellowSprite",
+    "path": "sprites/foodYellowSprite/foodYellowSprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -35,7 +35,7 @@
     "path": "folders/Objects/powerUps.yy",
   },
   "resourceVersion": "1.0",
-  "name": "foodBlue",
+  "name": "foodYellow",
   "tags": [],
   "resourceType": "GMObject",
 }
