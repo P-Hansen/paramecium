@@ -5,13 +5,20 @@ image_xscale = clamp(hp*0.01, 0.2, 100);
 image_yscale = clamp(hp*0.01, 0.2, 100);
 
 if (hp >= maxHp) {
-	roll = random_range(1,10);
+	roll = random_range(10,10);
 	if(roll >= 8) {
-		baby = instance_create_depth(x, y, 0, choose(parameciumBreederYellow, parameciumBreederBlue, parameciumBreederShell, parameciumBreederSpiked, parameciumBreederVacuum, parameciumBreederGreenBrooding));
-		baby.hp = maxHp/2;
-	
-		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
-		baby.hp = maxHp/2;
+		mutant = parameciumBreederGreenBrooding; //choose(parameciumBreederYellow, parameciumBreederBlue, parameciumBreederShell, parameciumBreederSpiked, parameciumBreederVacuum, parameciumBreederGreenBrooding);
+		if (mutant == parameciumBreederGreenBrooding) {
+			image_xscale = 0.1;
+			image_yscale = 0.1;
+			baby = instance_create_depth(x+20, y+20, 0, mutant);
+		} else {
+			baby = instance_create_depth(x, y, 0, mutant);
+			baby.hp = maxHp/2;
+
+			baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
+			baby.hp = maxHp/2;
+		}
 	} else {
 		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
 		baby.hp = maxHp/2;
