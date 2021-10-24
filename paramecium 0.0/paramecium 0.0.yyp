@@ -8,6 +8,7 @@
     {"id":{"name":"predator","path":"objects/predator/predator.yy",},"order":16,},
     {"id":{"name":"chloroplast","path":"objects/chloroplast/chloroplast.yy",},"order":0,},
     {"id":{"name":"tailSprite","path":"sprites/tailSprite/tailSprite.yy",},"order":10,},
+    {"id":{"name":"buttonStats","path":"objects/buttonStats/buttonStats.yy",},"order":2,},
     {"id":{"name":"parameciumSeeker","path":"objects/parameciumSeeker/parameciumSeeker.yy",},"order":14,},
     {"id":{"name":"parameciumBreederWhite","path":"objects/parameciumBreederWhite/parameciumBreederWhite.yy",},"order":17,},
     {"id":{"name":"Object33","path":"objects/Object33/Object33.yy",},"order":33,},
