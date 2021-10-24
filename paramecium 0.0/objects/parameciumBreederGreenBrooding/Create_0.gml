@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
+name = "Green brooder"
 image_blend = c_green;
 image_alpha = 0.7;
 image_xscale = 0.1;
