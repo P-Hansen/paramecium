@@ -45,6 +45,7 @@
     {"id":{"name":"parameciumParentClass","path":"objects/parameciumParentClass/parameciumParentClass.yy",},"order":19,},
     {"id":{"name":"innerFoodOrange","path":"objects/innerFoodOrange/innerFoodOrange.yy",},"order":3,},
     {"id":{"name":"ERSprite","path":"sprites/ERSprite/ERSprite.yy",},"order":0,},
+    {"id":{"name":"sidePanel","path":"objects/sidePanel/sidePanel.yy",},"order":1,},
     {"id":{"name":"ER","path":"objects/ER/ER.yy",},"order":13,},
     {"id":{"name":"wasteSprite","path":"sprites/wasteSprite/wasteSprite.yy",},"order":2,},
     {"id":{"name":"sugar","path":"objects/sugar/sugar.yy",},"order":4,},
