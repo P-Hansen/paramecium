@@ -2,11 +2,15 @@
 // You can write your code in this editor
 show = !show;
 if (show = false) {
-	instance_destroy(one);
-} else {
-	for (var i = 1; i > -1; --i) {
-		button = instance_create_depth(50,100+(i*50),-1,buttonStats);
-		button.species = aliveArray[i]
+	for (var i = array_length(destroyArray)-1; i > -1; --i) {
+		instance_destroy(destroyArray[i]);
 	}
-	//one = instance_create_depth(50,100,-1,buttonStats);
+} else {
+	for (var i = array_length(aliveArray)-1; i > -1; --i) {
+		if (instance_number(aliveArray[i])) {
+			button = instance_create_depth(50,100+(i*50),-1,buttonStats);
+			button.species = aliveArray[i];
+			array_push(destroyArray, button);
+		}
+	}
 }
