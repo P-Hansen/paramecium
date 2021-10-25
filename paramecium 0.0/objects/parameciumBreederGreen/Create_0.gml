@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
+name = "algae"
 image_blend = c_green;//choose(c_white, c_orange, c_yellow);
 image_xscale = 0.1;
 image_yscale = 0.1;

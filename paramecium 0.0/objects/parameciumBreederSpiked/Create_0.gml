@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
+name = "spiked";
 image_blend = make_colour_rgb(121, 5, 171);
 image_xscale = 0.1;
 image_yscale = 0.1;
