@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "statsButtonSprite",
-    "path": "sprites/statsButtonSprite/statsButtonSprite.yy",
+    "name": "arrowSprite",
+    "path": "sprites/arrowSprite/arrowSprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
@@ -32,7 +31,7 @@
     "path": "folders/Objects/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "buttonStats",
+  "name": "arrowButton",
   "tags": [],
   "resourceType": "GMObject",
 }

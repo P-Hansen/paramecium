@@ -36,5 +36,5 @@ if (hp >= maxHp && instance_number(parameciumBreederGreenBrooding) < 30 ) {
 		X5 = random_range(1,10);
 		Y5 = random_range(1,10);
 	}
-	global.points += 1;
+	global.points += 0.5;
 }

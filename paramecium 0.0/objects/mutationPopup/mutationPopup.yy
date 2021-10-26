@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "statsButtonSprite",
-    "path": "sprites/statsButtonSprite/statsButtonSprite.yy",
+    "name": "popupSprite",
+    "path": "sprites/popupSprite/popupSprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,9 +21,10 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":9,"eventType":10,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +33,7 @@
     "path": "folders/Objects/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "buttonStats",
+  "name": "mutationPopup",
   "tags": [],
   "resourceType": "GMObject",
 }
