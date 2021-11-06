@@ -4,6 +4,13 @@
 image_xscale = clamp(hp*0.01, 0.2, 100);
 image_yscale = clamp(hp*0.01, 0.2, 100);
 
+myEr.direction = direction;
+myEr.x = x;
+myEr.y = y;
+myEr.image_speed = speed*0.2;
+myEr.image_xscale = clamp(hp*0.01, 0.2, 100);
+myEr.image_yscale = clamp(hp*0.01, 0.2, 100);
+
 if (hp >= maxHp) {
 	roll = random_range(1,1);
 	if(roll >= 8) {
@@ -40,7 +47,7 @@ if (hp >= maxHp) {
 direction += steering;
 image_angle = direction;
 
-target = instance_nearest(x,y,foodYellow);
+target = instance_nearest(x,y,foodParentClass);
 if(instance_exists(target) && point_distance(x, y, target.x, target.y) <= sightRange) {
 	direction = point_direction(x, y, target.x, target.y);
 }
@@ -65,10 +72,3 @@ if(y > room_height) {
 if (hp <= 0) {
 	instance_destroy(self);
 }
-
-myEr.direction = direction;
-myEr.x = x+lengthdir_x(-44*(hp*0.01),direction)
-myEr.y = y+lengthdir_y(-44*(hp*0.01),direction)
-myEr.image_speed = speed*0.2;
-myEr.image_xscale = clamp(hp*0.01, 0.2, 100);
-myEr.image_yscale = clamp(hp*0.01, 0.2, 100);
