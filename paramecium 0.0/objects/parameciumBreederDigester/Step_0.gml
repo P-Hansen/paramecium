@@ -5,9 +5,9 @@ image_xscale = clamp(hp*0.01, 0.2, 100);
 image_yscale = clamp(hp*0.01, 0.2, 100);
 
 if (hp >= maxHp) {
-	roll = random_range(1,10);
+	roll = random_range(1,1);
 	if(roll >= 8) {
-		mutant = choose(parameciumBreederYellow, parameciumBreederBlue, parameciumBreederShell, parameciumBreederSpiked, parameciumBreederVacuum, parameciumBreederGreenBrooding, parameciumBreederDigester);
+		mutant = choose(parameciumBreederYellow, parameciumBreederBlue, parameciumBreederShell, parameciumBreederSpiked, parameciumBreederVacuum, parameciumBreederGreenBrooding);
 		if (mutant == parameciumBreederGreenBrooding or mutant == parameciumBreederSpiked) {
 			image_xscale = 0.1;
 			image_yscale = 0.1;
@@ -25,11 +25,11 @@ if (hp >= maxHp) {
 			baby.hp = maxHp/2;
 		}
 	} else {
-		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
+		baby = instance_create_depth(x, y, 0, parameciumBreederDigester);
 		baby.hp = maxHp/2;
 		//baby.image_blend = image_blend;
 	
-		baby = instance_create_depth(x, y, 0, parameciumBreederWhite);
+		baby = instance_create_depth(x, y, 0, parameciumBreederDigester);
 		baby.hp = maxHp/2;
 		//baby.image_blend = image_blend;
 	}
@@ -65,3 +65,10 @@ if(y > room_height) {
 if (hp <= 0) {
 	instance_destroy(self);
 }
+
+myEr.direction = direction;
+myEr.x = x+lengthdir_x(-44*(hp*0.01),direction)
+myEr.y = y+lengthdir_y(-44*(hp*0.01),direction)
+myEr.image_speed = speed*0.2;
+myEr.image_xscale = clamp(hp*0.01, 0.2, 100);
+myEr.image_yscale = clamp(hp*0.01, 0.2, 100);
