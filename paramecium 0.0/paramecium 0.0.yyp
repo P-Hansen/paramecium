@@ -18,6 +18,7 @@
     {"id":{"name":"parameciumBreederToxic","path":"objects/parameciumBreederToxic/parameciumBreederToxic.yy",},"order":23,},
     {"id":{"name":"tail2","path":"objects/tail2/tail2.yy",},"order":25,},
     {"id":{"name":"vacuumAreaSprite","path":"sprites/vacuumAreaSprite/vacuumAreaSprite.yy",},"order":18,},
+    {"id":{"name":"foodOrangeSugarParentClass","path":"objects/foodOrangeSugarParentClass/foodOrangeSugarParentClass.yy",},"order":9,},
     {"id":{"name":"tail","path":"objects/tail/tail.yy",},"order":11,},
     {"id":{"name":"paramecium","path":"objects/paramecium/paramecium.yy",},"order":9,},
     {"id":{"name":"parameciumBreederGreenBrooding","path":"objects/parameciumBreederGreenBrooding/parameciumBreederGreenBrooding.yy",},"order":28,},

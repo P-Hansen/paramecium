@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "sugarSprite",
-    "path": "sprites/sugarSprite/sugarSprite.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "foodOrangeSugarParentClass",
-    "path": "objects/foodOrangeSugarParentClass/foodOrangeSugarParentClass.yy",
+    "name": "foodParentClass",
+    "path": "objects/foodParentClass/foodParentClass.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +28,7 @@
     "path": "folders/Objects/powerUps.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sugar",
+  "name": "foodOrangeSugarParentClass",
   "tags": [],
   "resourceType": "GMObject",
 }

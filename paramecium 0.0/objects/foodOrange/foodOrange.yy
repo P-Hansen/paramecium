@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "foodParentClass",
-    "path": "objects/foodParentClass/foodParentClass.yy",
+    "name": "foodOrangeSugarParentClass",
+    "path": "objects/foodOrangeSugarParentClass/foodOrangeSugarParentClass.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
