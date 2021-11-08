@@ -10,6 +10,7 @@ aliveArray = [
 	parameciumBreederBlue,
 	parameciumBreederSpiked,
 	parameciumBreederToxic,
-	parameciumBreederVacuum
+	parameciumBreederVacuum,
+	parameciumBreederDigester
 ];
 destroyArray = [];

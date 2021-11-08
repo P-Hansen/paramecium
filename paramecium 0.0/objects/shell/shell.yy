@@ -31,6 +31,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"parameciumBreederVacuum","path":"objects/parameciumBreederVacuum/parameciumBreederVacuum.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"parameciumBreederWhite","path":"objects/parameciumBreederWhite/parameciumBreederWhite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"parameciumBreederYellow","path":"objects/parameciumBreederYellow/parameciumBreederYellow.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"parameciumBreederDigester","path":"objects/parameciumBreederDigester/parameciumBreederDigester.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
