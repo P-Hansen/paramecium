@@ -31,6 +31,7 @@
     {"id":{"name":"toxic","path":"objects/toxic/toxic.yy",},"order":5,},
     {"id":{"name":"foodOrange","path":"objects/foodOrange/foodOrange.yy",},"order":2,},
     {"id":{"name":"shellSprite","path":"sprites/shellSprite/shellSprite.yy",},"order":15,},
+    {"id":{"name":"eyeSprite","path":"sprites/eyeSprite/eyeSprite.yy",},"order":25,},
     {"id":{"name":"parameciumBreederYellow","path":"objects/parameciumBreederYellow/parameciumBreederYellow.yy",},"order":15,},
     {"id":{"name":"Listener","path":"objects/Listener/Listener.yy",},"order":34,},
     {"id":{"name":"statsButtonSprite","path":"sprites/statsButtonSprite/statsButtonSprite.yy",},"order":23,},
