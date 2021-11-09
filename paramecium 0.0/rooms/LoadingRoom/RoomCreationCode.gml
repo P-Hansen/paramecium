@@ -1,5 +1,5 @@
 random_set_seed(randomize());
-global.points = 0;
+global.points = 5;
 ///////////////////////
 global.whiteSpeed = 1;
 global.whiteMinSpeed = 1;
