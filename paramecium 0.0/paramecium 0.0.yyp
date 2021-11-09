@@ -3,6 +3,7 @@
     {"id":{"name":"allActiveParentClass","path":"objects/allActiveParentClass/allActiveParentClass.yy",},"order":35,},
     {"id":{"name":"spike","path":"objects/spike/spike.yy",},"order":32,},
     {"id":{"name":"SilicaSprite","path":"sprites/SilicaSprite/SilicaSprite.yy",},"order":5,},
+    {"id":{"name":"toxicWaves","path":"objects/toxicWaves/toxicWaves.yy",},"order":41,},
     {"id":{"name":"toxicSprite","path":"sprites/toxicSprite/toxicSprite.yy",},"order":4,},
     {"id":{"name":"spikeSprite","path":"sprites/spikeSprite/spikeSprite.yy",},"order":20,},
     {"id":{"name":"predator","path":"objects/predator/predator.yy",},"order":16,},

@@ -34,12 +34,12 @@ direction += steering;
 image_angle = direction;
 
 targetOrange = instance_nearest(x,y,foodOrange);
-targetWhite = instance_nearest(x,y,sugar);
+//targetWhite = instance_nearest(x,y,sugar);
 if (instance_exists(targetOrange) && point_distance(x, y, targetOrange.x, targetOrange.y) <= sightRange) {
 	direction = point_direction(x, y, targetOrange.x, targetOrange.y);
-} else if (instance_exists(targetWhite) && point_distance(x, y, targetWhite.x, targetWhite.y) <= sightRange) {
-	direction = point_direction(x, y, targetWhite.x, targetWhite.y);
-}
+}// else if (instance_exists(targetWhite) && point_distance(x, y, targetWhite.x, targetWhite.y) <= sightRange) {
+//	direction = point_direction(x, y, targetWhite.x, targetWhite.y);
+//}
 
 if(x < 0) {
 	x = 5;
