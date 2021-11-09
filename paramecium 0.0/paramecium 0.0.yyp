@@ -51,6 +51,7 @@
     {"id":{"name":"horn","path":"objects/horn/horn.yy",},"order":10,},
     {"id":{"name":"parameciumParentClass","path":"objects/parameciumParentClass/parameciumParentClass.yy",},"order":19,},
     {"id":{"name":"arrowButton","path":"objects/arrowButton/arrowButton.yy",},"order":4,},
+    {"id":{"name":"superSugarSpawn","path":"objects/superSugarSpawn/superSugarSpawn.yy",},"order":40,},
     {"id":{"name":"innerFoodOrange","path":"objects/innerFoodOrange/innerFoodOrange.yy",},"order":3,},
     {"id":{"name":"LoadingRoom","path":"rooms/LoadingRoom/LoadingRoom.yy",},"order":1,},
     {"id":{"name":"ERSprite","path":"sprites/ERSprite/ERSprite.yy",},"order":0,},

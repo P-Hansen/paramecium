@@ -7,7 +7,7 @@ direction = random_range(0, 360);
 maxSpeed = 2;
 minSpeed = 2;
 speed = minSpeed;//random_range(2, 4);
-hp = 60;
+hp = 80;
 maxHp = random_range(50,80);
 move_bounce_solid(true);
 steering = 0;
