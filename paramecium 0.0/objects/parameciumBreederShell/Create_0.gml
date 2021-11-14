@@ -1,6 +1,6 @@
 /// @description Insert description here
 name = "shell";
-image_blend = c_white;//choose(c_white, c_orange, c_yellow);
+image_blend = c_white;
 image_xscale = 0.1;
 image_yscale = 0.1;
 direction = random_range(0, 360);

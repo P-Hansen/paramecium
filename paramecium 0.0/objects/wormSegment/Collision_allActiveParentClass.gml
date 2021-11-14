@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-alarm[0] = 480*room_speed;
+
+other.direction = other.direction + 180;
+other.hp -= 1;

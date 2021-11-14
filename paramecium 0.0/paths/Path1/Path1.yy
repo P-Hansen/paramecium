@@ -1,0 +1,25 @@
+{
+  "kind": 1,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":57.0,"y":189.0,},
+    {"speed":100.0,"x":190.0,"y":152.0,},
+    {"speed":100.0,"x":258.0,"y":193.0,},
+    {"speed":100.0,"x":325.0,"y":187.0,},
+    {"speed":100.0,"x":388.0,"y":163.0,},
+    {"speed":100.0,"x":438.0,"y":188.0,},
+    {"speed":100.0,"x":474.0,"y":177.0,},
+    {"speed":100.0,"x":515.0,"y":170.0,},
+    {"speed":100.0,"x":563.0,"y":187.0,},
+    {"speed":100.0,"x":596.0,"y":189.0,},
+  ],
+  "parent": {
+    "name": "events",
+    "path": "folders/Objects/events.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "Path1",
+  "tags": [],
+  "resourceType": "GMPath",
+}
