@@ -2,15 +2,15 @@
 
 image_angle = direction;
 
-if(x < -10) {
+if(x < -20) {
 	instance_destroy(self);
 }
-if(x > room_width+10) {
+if(x > room_width+20) {
 	instance_destroy(self);
 }
-if(y < -10) {
+if(y < -20) {
 	instance_destroy(self);
 }
-if(y > room_height+10) {
+if(y > room_height+20) {
 	instance_destroy(self);
 }
