@@ -37,6 +37,7 @@
     {"id":{"name":"eyeSprite","path":"sprites/eyeSprite/eyeSprite.yy",},"order":25,},
     {"id":{"name":"parameciumBreederYellow","path":"objects/parameciumBreederYellow/parameciumBreederYellow.yy",},"order":15,},
     {"id":{"name":"Listener","path":"objects/Listener/Listener.yy",},"order":1,},
+    {"id":{"name":"famine","path":"objects/famine/famine.yy",},"order":4,},
     {"id":{"name":"statsButtonSprite","path":"sprites/statsButtonSprite/statsButtonSprite.yy",},"order":23,},
     {"id":{"name":"player","path":"objects/player/player.yy",},"order":0,},
     {"id":{"name":"parameciumBreederBlue","path":"objects/parameciumBreederBlue/parameciumBreederBlue.yy",},"order":18,},
