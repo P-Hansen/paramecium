@@ -1,4 +1,8 @@
 /// @description Insert description here
 
-alarm[0] = 120*room_speed;
-alarm[1] = 1*room_speed;
+instance_create_depth(random_range(0,room_width), random_range(0,room_height),0, parameciumBreederGreen);
+instance_create_depth(random_range(0,room_width), random_range(0,room_height),0, parameciumBreederGreen);
+instance_create_depth(random_range(0,room_width), random_range(0,room_height),0, parameciumBreederGreen);
+instance_create_depth(random_range(0,room_width), random_range(0,room_height),0, parameciumBreederGreen);
+instance_create_depth(random_range(0,room_width), random_range(0,room_height),0, parameciumBreederGreen);
+instance_destroy(self);

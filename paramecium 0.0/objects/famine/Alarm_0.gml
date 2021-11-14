@@ -12,4 +12,4 @@ if (totalFood > 0 ) {
 	instance_destroy(self);
 }
 
-alarm[0] = 2*room_speed;
+alarm[0] = 1*room_speed;

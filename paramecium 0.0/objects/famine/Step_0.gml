@@ -19,6 +19,6 @@ if (active == true) {
 	
 	if (instance_number(waste)+instance_number(foodOrange)+instance_number(foodYellow) == 0 ) {
 		active = false;
-		alarm[0] = 2*room_speed;
+		alarm[0] = 1*room_speed;
 	}
 }
