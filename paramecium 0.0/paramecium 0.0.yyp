@@ -9,6 +9,7 @@
     {"id":{"name":"spikeSprite","path":"sprites/spikeSprite/spikeSprite.yy",},"order":20,},
     {"id":{"name":"predator","path":"objects/predator/predator.yy",},"order":16,},
     {"id":{"name":"superSugarSpawn","path":"objects/superSugarSpawn/superSugarSpawn.yy",},"order":3,},
+    {"id":{"name":"feast","path":"objects/feast/feast.yy",},"order":11,},
     {"id":{"name":"chloroplast","path":"objects/chloroplast/chloroplast.yy",},"order":0,},
     {"id":{"name":"tailSprite","path":"sprites/tailSprite/tailSprite.yy",},"order":10,},
     {"id":{"name":"buttonStats","path":"objects/buttonStats/buttonStats.yy",},"order":2,},
