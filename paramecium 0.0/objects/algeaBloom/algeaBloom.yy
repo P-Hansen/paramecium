@@ -29,7 +29,7 @@
     "path": "folders/Objects/events.yy",
   },
   "resourceVersion": "1.0",
-  "name": "toxicWaves",
+  "name": "algeaBloom",
   "tags": [],
   "resourceType": "GMObject",
 }
