@@ -3,5 +3,7 @@
 if (instance_exists(species)) {
 	draw_self();
 	//draw_rectangle_color(x,y,x+200,y+30,colour,colour,colour,colour,false);
-	draw_text(x+5,y+5,species.name +" "+ string(instance_number(species)));
+	draw_text(x+15,y+5,species.name +" "+ string(instance_number(species)));
+} else {
+	instance_destroy(self);
 }
