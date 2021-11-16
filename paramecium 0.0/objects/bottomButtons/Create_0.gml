@@ -11,7 +11,8 @@ allArray = [
 	parameciumBreederSpiked,
 	parameciumBreederToxic,
 	parameciumBreederVacuum,
-	parameciumBreederDigester
+	parameciumBreederDigester,
+	parameciumBreederGreen
 ];
 showingArray = [];
 activeButtons = [];

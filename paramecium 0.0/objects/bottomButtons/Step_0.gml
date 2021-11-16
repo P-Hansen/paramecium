@@ -13,6 +13,7 @@ for (var i = array_length(allArray)-1; i > -1; --i) {
 for (var i = 0; i < array_length(activeButtons); ++i) {
 	if (instance_number(activeButtons[i].species) == 0) {
 		//activeButtons[i].instance_destroy(self);
+		array_delete(showingArray, array_index_of(showingArray, activeButtons[i].species), 1);
 		array_delete(activeButtons, i, 1);
 		offset -= 200;
 		for (var j = i; j < array_length(activeButtons); ++j){

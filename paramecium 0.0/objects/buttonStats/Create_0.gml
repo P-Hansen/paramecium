@@ -3,3 +3,4 @@
 species = parameciumBreederWhite;
 colour = c_gray;
 image_alpha = .3;
+deleted = false;

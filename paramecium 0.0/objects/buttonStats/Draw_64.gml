@@ -5,5 +5,8 @@ if (instance_exists(species)) {
 	//draw_rectangle_color(x,y,x+200,y+30,colour,colour,colour,colour,false);
 	draw_text(x+15,y+5,species.name +" "+ string(instance_number(species)));
 } else {
-	instance_destroy(self);
+	if (deleted == false) {
+		alarm[0] = 30;
+		deleted = true;
+	}
 }
