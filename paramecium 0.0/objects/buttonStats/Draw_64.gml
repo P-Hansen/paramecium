@@ -6,7 +6,7 @@ if (instance_exists(species)) {
 	draw_text(x+15,y+5,species.name +" "+ string(instance_number(species)));
 } else {
 	if (deleted == false) {
-		alarm[0] = 30;
+		alarm[0] = 2;
 		deleted = true;
 	}
 }
