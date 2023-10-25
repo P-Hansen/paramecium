@@ -1,5 +1,5 @@
 /// @description Insert description here
-name = "spiked";
+name = "spiny";
 image_blend = make_colour_rgb(121, 5, 171);
 image_xscale = 0.1;
 image_yscale = 0.1;
@@ -38,3 +38,12 @@ cilia16 = instance_create_depth(x+48, y, 0, spike);
 spikeArray = [cilia1, cilia2, cilia3, cilia4, cilia5, cilia6, cilia7, cilia8, cilia9, cilia10, cilia11, cilia12, cilia13, cilia14, cilia15, cilia16];
 
 minSize = 0.2;
+
+roll = random_range(1,100);
+if(roll < 5){
+	image_blend = make_colour_rgb(171, 118, 194);
+	for (var i=0; i<array_length_1d(spikeArray); i++) {
+		spikeArray[i].image_blend = make_colour_rgb(121, 5, 171);
+	}
+	maxHp = maxHp*1.1;
+}

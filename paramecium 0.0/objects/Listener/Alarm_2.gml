@@ -1,0 +1,2 @@
+/// @description restart
+gameOverFlag = false;

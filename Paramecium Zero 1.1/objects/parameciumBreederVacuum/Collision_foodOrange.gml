@@ -1,0 +1,6 @@
+/// @description Insert description here
+// You can write your code in this editor
+instance_destroy(other);
+hp += 10;
+poop = instance_create_depth(other.x,other.y,0,waste);
+poop.direction = other.direction;

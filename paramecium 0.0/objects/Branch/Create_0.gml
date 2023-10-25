@@ -1,0 +1,11 @@
+MaxHp = 20;
+hp = MaxHp/100;
+image_xscale = hp/MaxHp;
+image_yscale = hp/MaxHp;
+speed = 0;
+image_angle = random_range(0,360);
+Branched = false;
+Generation = 1;
+NewBranch1 = self;
+NewBranch2 = self;
+WitherFlag = false;
